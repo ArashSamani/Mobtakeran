@@ -1,6 +1,5 @@
 class ModelBook:
-    def __init__(self,ID=None,NAME=None,TITLE=None,COUNT=None):
-        self.Id = ID
+    def __init__(self,NAME=None,TITLE=None,COUNT=None):
         self.Name = NAME
         self.Title = TITLE
         self.Count = COUNT

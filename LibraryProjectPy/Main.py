@@ -1,10 +1,8 @@
 #MAIN
+from Models.Model_Book import ModelBook
+from Sv.sv_Book import SvBook
 
-import Models
-import SV
 
-
-_entity = Models.ModelBook('C#','.netCore',5)
-
-_sv = SV._svBook()
-_sv.Insert(_entity)
+_newbokk = ModelBook(NAME='c#',TITLE='asp',COUNT=4)
+_service = SvBook()
+_service.Insert(_newbokk)
